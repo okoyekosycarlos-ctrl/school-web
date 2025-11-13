@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>School Website</title>
+    <style>
+        /* Reset some defaults */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            line-height: 1.6;
+            background-color: #f5f6fa;
+            color: #333;
+        }
+
+        /* Header */
+        header {
+            background-color: #2c3e50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+        }
+
+        /* Navigation */
+        nav {
+            background-color: #34495e;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            padding: 15px 0;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            padding: 8px 15px;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        nav a:hover {
+            background-color: #2ecc71;
+            color: white;
+        }
+
+        /* Sections */
+        .box {
+            padding: 60px 20px;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        section h2 {
+            font-size: 2rem;
+            margin-bottom: 20px;
+            color: #2c3e50;
+        }
+
+        section p, section ul {
+            font-size: 1rem;
+            margin-bottom: 20px;
+        }
+
+        section ul li {
+            margin-bottom: 8px;
+        }
+
+        /* YouTube iframe */
+        iframe {
+            width: 100%;
+            max-width: 560px;
+            height: 315px;
+            display: block;
+            margin: 20px 0;
+            border-radius: 10px;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            font-size: 0.9rem;
+        }
+
+        /* Smooth scrolling */
+        html {
+            scroll-behavior: smooth;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            nav {
+                flex-direction: column;
+                gap: 10px;
+            }
+
+            .box {
+                padding: 40px 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+<header>
+    <h1>School Website</h1>
+
+</header>
+<nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#classes">Classes</a>
+    <a href="#contact">Contact</a>
+
+</nav>
+
+    <div class="box">
+        <section id="home">
+            <h2>Home</h2>
+            <p>BrightFuture International School, founded in 2010, is dedicated to nurturing academic excellence, creativity, and leadership. Our teachers provide quality education in a safe and inspiring environment, preparing students for future challenges.
+            </p>
+
+
+
+        </section>
+    </div>
+
+<div class="box">
+    <section id="about">
+        <h2>About</h2>
+        <p>BrightFuture International School, founded in 2010 and established as a center of excellence in education, is committed to providing quality learning in a supportive and inspiring environment. Our mission is to nurture both the academic and personal growth of every student, helping them develop critical thinking, creativity, and strong moral values. With dedicated teachers, modern facilities, and a focus on holistic learning, we aim to prepare students for future challenges while fostering responsible, confident, and compassionate individuals.
+        </p>
+  <img src="uni.jpeg" height="300" width="300">
+    </section>
+
+
+</div>
+
+<div class="box">
+    <section id="classes">
+        <h2>Classes</h2>
+       <ul>
+           <li>Math</li>
+           <li>Science</li>
+           <li>English</li>
+           <li>History</li>
+
+       </ul>
+    </section>
+
+</div>
+
+
+<div class="box">
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Address:<b>universiteto Ave. 17, LT-92294 klaipeda, Lithuania</b></p>
+    </section>
+</div>
+
+
+
+<footer>DONE BY CARLOS</footer>
+</body>
+</html>
